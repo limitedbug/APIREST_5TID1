@@ -1,5 +1,7 @@
 <?php 
-require('classes/connection/connection.php'); ?>
+require('classes/connection/connection.php'); 
+$new_conn = new connection();
+print_r($new_conn);?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -3,8 +3,8 @@
         private $host, $db_name, $user, $password, $connection, $port;
 
         function __construct(){
-            $data_list = $this.connection_data();
-            foreach ($datakust as $row => $value) {
+            $data_list = $this->connection_data();
+            foreach ($data_list as $row => $value) {
                 $this->host = $value['host'];
                 $this->db_name = $value['db_name'];
                 $this->user = $value['user'];
